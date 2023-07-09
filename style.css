@@ -1,0 +1,54 @@
+body{
+    background-image: url(pexels-jane-doan-1132040.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 600px;
+    height: 500px;
+    background: #fffbfb;
+    border-radius: 2rem;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    
+}
+
+input{
+
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  display: block;
+  margin: auto;
+
+}
+
+
+
+
+canvas{
+    border: 1px solid #ccc;
+    display: block;
+    margin: 15px auto;
+    height: 250px;
+    padding: 15px;
+}
